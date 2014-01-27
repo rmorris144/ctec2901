@@ -1,0 +1,30 @@
+for(i=0; i<n; ++i) {
+		scanf("%f", &data[i]);
+}
+
+if(!(ar = (int *) malloc(sizeof(int)*max))) {
+		printf("Error: ar: memory not allocated\n");
+		exit(1);
+	}
+	else {
+		for(i=0; i < max; i++) {
+			*ar = 1;
+	}
+
+	while (*ar) {
+		printf("%i", ar[0]);
+		*ar++;
+	}
+
+/*float mean_function(float array[], int n)
+{
+	int i;
+	float sum=0;
+	for(i=0;i<n;i++)
+	sum=sum+array[i];
+	return (sum/n);
+}
+*/
+
+for(i=0; i < max; i++) {
+			*ar = 1;
